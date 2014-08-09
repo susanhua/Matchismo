@@ -9,7 +9,7 @@
 #import "Deck.h"
 
 @interface Deck()
-@property (strong,nonatomic) NSMutableArray *card;
+@property (strong,nonatomic) NSMutableArray *cards;
 @end
 
 
@@ -17,11 +17,11 @@
 
 -(NSMutableArray *)cards
 {
-    if(!_card) _card = [[NSMutableArray alloc] init];
-    return _card;
+    if(!_cards) _cards = [[NSMutableArray alloc] init];
+    return _cards;
 }
 
--(void)addcard:(Card *) card atTop:(BOOL)atTop
+-(void)addCard:(Card *) card atTop:(BOOL)atTop
 {
     if (atTop) {
         [self.cards insertObject:card atIndex:0];
