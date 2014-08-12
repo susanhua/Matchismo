@@ -160,7 +160,7 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I4R-KU-4qq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score：0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXn-Xt-yJT">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nw-Vi-G22">
                                 <rect key="frame" x="20" y="439" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -171,8 +171,7 @@
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="flipsLabel" destination="BXn-Xt-yJT" id="3gn-lD-Ho8"/>
-                        <outlet property="scoreLabel" destination="BXn-Xt-yJT" id="Lmr-yT-Bed"/>
+                        <outlet property="scoreLabel" destination="8Nw-Vi-G22" id="2mV-JS-ueA"/>
                         <outletCollection property="cardButtons" destination="ysf-Nl-k2C" id="chv-is-XvC"/>
                         <outletCollection property="cardButtons" destination="ln9-OU-maR" id="rGT-kL-Jgv"/>
                         <outletCollection property="cardButtons" destination="Gc2-d2-AOE" id="rR8-oV-iD5"/>
