@@ -11,8 +11,8 @@
 
 @interface Deck : NSObject
 
--(void) addCard:(Card *)card atTop:(BOOL)atTop;
--(void) addCard:(Card *)card;
+-(void) addCard:(Card *)card atTop:(BOOL)atTop;//往最上面或者最下面添加一张卡
+-(void) addCard:(Card *)card;//随意添加一张卡（只有一个参数）
 
 -(Card *) drawRandomCard;
 

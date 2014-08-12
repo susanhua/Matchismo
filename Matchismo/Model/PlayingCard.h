@@ -10,8 +10,9 @@
 
 @interface PlayingCard : Card
 
-@property (strong, nonatomic) NSString *suit;
-@property (nonatomic) NSUInteger rank;
+@property (strong, nonatomic) NSString *suit;//花色
+@property (nonatomic) NSUInteger rank;//点数，非负整数
+
 
 + (NSArray *) validSuits;
 + (NSUInteger) maxRank;
